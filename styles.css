@@ -4,6 +4,12 @@ body {
   
 }
 
+/** below are styles only for index.html homepage **/
+.home-grid {
+  display:grid;
+  grid-template-columns:3fr 1fr;
+}
+
 footer a {
   text-decoration: none;/* get rid of dash next to icons */
   color: black;
@@ -13,7 +19,8 @@ footer a {
   width:400px;
   height:400px;
   float: right;
-}
+}/* image on about page */
+
 img {
   max-width: 100%; 
   height: auto;
