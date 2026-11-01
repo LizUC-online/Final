@@ -9,6 +9,11 @@ footer a {
   color: black;
 }
 
+img {
+  max-width: 100%; 
+  height: auto;
+}/* keep images inside container element */
+
 /* Tablet Layout
 ------------------------------------*/
 @media (max-width: 799px) {
