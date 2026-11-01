@@ -9,6 +9,11 @@ footer a {
   color: black;
 }
 
+.imageRight {
+  width:400px;
+  height:400px;
+  float: right;
+}
 img {
   max-width: 100%; 
   height: auto;
