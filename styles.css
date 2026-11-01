@@ -4,6 +4,11 @@ body {
   
 }
 
+footer a {
+  text-decoration: none;/* get rid of dash next to icons */
+  color: black;
+}
+
 /* Tablet Layout
 ------------------------------------*/
 @media (max-width: 799px) {
