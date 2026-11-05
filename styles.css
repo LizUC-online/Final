@@ -18,7 +18,7 @@ header {
 }
 .logo {
   width:400px;
-}
+}/* header image logo */
 nav ul {
   list-style: none;
   display: flex;
@@ -40,7 +40,7 @@ nav a:hover {
 .hero {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
-    url("images/kitten_photo.jpg");/* photo-credit https://pixabay.com/photos/kitten-white-cat-cute-domestic-1285341/ */
+    url("images/coffee_bkg.jpg");
   min-height:30vh;
   background-size: cover;
   background-position:center;
@@ -81,7 +81,10 @@ nav a:hover {
 .hero-button:hover {
   background-color: #0f6513;
 }
-
+.mm-header {
+  float:right;
+  width:300px;
+}/* image of merry mocha drink on hero image */
 main {
   background-color:rgb(255, 255, 255);
   text-align:center;
@@ -99,6 +102,9 @@ main {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+}
+.span2 {
+  grid-column: span 2;
 }
 .award-box p, blockquote{
   border-bottom:1px solid black;
@@ -128,12 +134,19 @@ img {
   max-width: 100%; 
   height: auto;
 }/* keep images inside container element */
-
 footer a {
   text-decoration: none;/* get rid of dash next to icons */
   color: black;
 }
-
+.about-image {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("images/coffee_bkg.jpg");
+  min-height:30vh;
+  background-size: cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}/* coffee bkg on about us page */
 /* Tablet Layout
 ------------------------------------*/
 @media (max-width: 799px) {
