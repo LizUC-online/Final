@@ -93,7 +93,8 @@ main {
 /* this is a generic class affecting every column on the page*/
 .column {
     background-color: white;
-    border: 1px solid darkgrey;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:0.5rem;
     padding: 1em 2em 1em 2em;
 }
 /* put sections inside this container for a 2-column layout */
