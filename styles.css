@@ -86,18 +86,35 @@ nav a:hover {
 }
 
 main {
-  background-color:#531607;
-  padding:0rem 6rem;
+  background-color:rgb(255, 255, 255);
+  text-align:center;
+  padding:1rem 6rem;
 }
-main section {
-  background-color: rgb(255, 255, 255);
-  margin:0rem 1rem;
-  padding:1rem;
+/* this is a generic class affecting every column on the page*/
+.column {
+    background-color: white;
+    border: 1px solid darkgrey;
+    padding: 1em 2em 1em 2em;
+}
+/* put sections inside this container for a 2-column layout */
+.container-2col {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+.award-box p, blockquote{
+  border-bottom:1px solid black;
+  font-family:"Charis SIL", serif;
+  text-align:left;
+}
+.about-box p {
+  text-align:left;
 }
 main h2 {
   font-family:"Google Sans Flex", sans-serif;
   font-size:1.5rem;
   color:black;
+  padding:0.5rem;
 }
 main p {
   margin-bottom: 0;
@@ -105,24 +122,14 @@ main p {
 iframe {
   max-width: 100%;
   height:auto;
+}
+.maps {
+  padding:0rem;
 }/* location embed on home page */
 img {
   max-width: 100%; 
   height: auto;
 }/* keep images inside container element */
-
-.home_order {
-  
-}
-.home_award {
-  
-}
-.home_hours {
-  
-}
-.home_review {
-  
-}
 
 footer a {
   text-decoration: none;/* get rid of dash next to icons */
