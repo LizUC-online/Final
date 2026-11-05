@@ -114,6 +114,11 @@ main {
 .about-box p {
   text-align:left;
 }
+.about-story {
+  font-family:"Charis SIL", serif;
+  text-align:left;
+  font-size:120%;
+}
 main h2 {
   font-family:"Google Sans Flex", sans-serif;
   font-size:1.5rem;
