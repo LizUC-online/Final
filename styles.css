@@ -157,9 +157,20 @@ img {
   max-width: 100%; 
   height: auto;
 }/* keep images inside container element */
-footer a {
+footer a, footer small {
   text-decoration: none;/* get rid of dash next to icons */
-  color: black;
+  color: white;
+  margin:0.4rem;
+  padding:0.4rem;
+}
+.socials{
+  font-size:150%;
+  display: flex;
+  justify-content: center;
+}
+small {
+  display:block;
+  text-align:center;
 }
 .about-image {
   background-image:
