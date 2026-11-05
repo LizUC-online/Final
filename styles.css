@@ -1,30 +1,133 @@
 /* DESKTOP Layout
-------------------------------------*/
+------------------------------------
+"Google Sans Flex", sans-serif; "Charis SIL", serif;*/
 body {
-  
+  background-color:#0f6513;
+  font-family: "Google Sans Flex", sans-serif;
+  line-height:1.4;
+}
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
-/** below are styles only for index.html homepage **/
-.home-grid {
-  display:grid;
-  grid-template-columns:3fr 1fr;
+header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1d3557;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1d3557;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #457b9d;
+}
+
+
+/* header hero image */
+.hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("images/kitten_photo.jpg");/* photo-credit https://pixabay.com/photos/kitten-white-cat-cute-domestic-1285341/ */
+  min-height:30vh;
+  background-size: cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  padding:2rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  line-height:1.4;
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+  max-width: 600px;
+}
+
+.hero-content h2 {
+  font-size:3rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: #47e639;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.9rem 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.hero-button:hover {
+  background-color: #0f6513;
+}
+
+main {
+  background-color:#531607;
+  padding:0rem 6rem;
+}
+main section {
+  background-color: rgb(255, 255, 255);
+  margin:0rem 1rem;
+  padding:1rem;
+}
+main h2 {
+  font-family:"Google Sans Flex", sans-serif;
+  font-size:1.5rem;
+  color:black;
+}
+main p {
+  margin-bottom: 0;
+}
+iframe {
+  max-width: 100%;
+  height:auto;
+}/* location embed on home page */
+img {
+  max-width: 100%; 
+  height: auto;
+}/* keep images inside container element */
+
+.home_order {
+  
+}
+.home_award {
+  
+}
+.home_hours {
+  
+}
+.home_review {
+  
 }
 
 footer a {
   text-decoration: none;/* get rid of dash next to icons */
   color: black;
 }
-
-.imageRight {
-  width:400px;
-  height:400px;
-  float: right;
-}/* image on about page */
-
-img {
-  max-width: 100%; 
-  height: auto;
-}/* keep images inside container element */
 
 /* Tablet Layout
 ------------------------------------*/
