@@ -113,8 +113,9 @@ main {
 }
 .about-box p {
   text-align:left;
+  font-family:"Charis SIL", serif;
 }
-.about-story {
+.text-style-1 {
   font-family:"Charis SIL", serif;
   text-align:left;
   font-size:120%;
@@ -131,15 +132,18 @@ main p {
 div.menu-item {
   text-align:left;
   margin:1rem;
-  padding:4rem 1rem;
-  border-bottom:2px solid black;
+  padding:2rem 1rem;
+  height:100px;
+  font-family:Charis SIL, serif;
+  /*
+ border-bottom:2px solid black;*/
 }
 .menu-item img {
-  border:2px solid blue;/* delete this */
+/*  border:2px solid blue;/* delete this */
   border-radius:20%;
   max-width:100%;
   height:auto;
-  width:60px;
+  width:70px;
   float:left;
   padding:0.4rem;
 }
@@ -177,7 +181,7 @@ small {
   display:block;
   text-align:center;
 }
-.about-image {
+.coffee-image {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
     url("images/coffee_bkg.jpg");
@@ -191,7 +195,8 @@ small {
 @media (max-width: 799px) {
   /** code for tablet sizing etc **/
   main {
-  }
+    padding:1rem 1rem;
+  }/* makes content take up more space - removes padding */
   .container-2col {
     margin: 0;
     background-color: white;
@@ -228,4 +233,16 @@ small {
 ------------------------------------*/
 @media (max-width:400px){
   /** code for phone sizing etc **/
+  /* .hero {
+    padding: 1.5rem;
+  }
+
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+    */
 }
