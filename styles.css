@@ -190,6 +190,37 @@ small {
 ------------------------------------*/
 @media (max-width: 799px) {
   /** code for tablet sizing etc **/
+  main {
+  }
+  .container-2col {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    height:30vh;
+  }
+  header nav ul {
+    flex-direction:column;
+    grid-gap:0;
+    text-align:center;
+  }
+  .logo {
+    width:300px;
+  }/* header image logo */
+  .hero {
+    flex-direction:column;
+  }
+  .hero h2 {
+    font-size:250%;
+  }
+  .hero p {
+    font-size:80%;
+  }
+  .mm-header {
+    width:150px;
+  }
 }
 
 
