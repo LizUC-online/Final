@@ -27,8 +27,8 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #1d3557;
-  font-weight: bold;
+  color: black;
+  /*font-weight:bold*/
 }
 
 nav a:hover {
