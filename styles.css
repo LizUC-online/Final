@@ -154,6 +154,8 @@ div.menu-item {
 .rev-box {
   text-align:left;
   border-bottom: 1px solid gray;
+  padding:1rem;
+  margin-bottom:1rem;
 }/* styles for revie boxes */
 iframe {
   max-width: 100%;
@@ -202,6 +204,9 @@ small {
     background-color: white;
     display: flex;
     flex-direction: column;
+  }
+  .column {
+    padding:0.4rem;
   }
   header {
     height:30vh;
