@@ -14,7 +14,7 @@ header {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  height:10vh;
+  height:20vh;
 }
 .logo {
   width:400px;
@@ -55,7 +55,7 @@ nav a:hover {
 .hero-content {
   text-align: center;
   color: white;
-  max-width: 600px;
+ /* max-width: 600px;*/
 }
 
 .hero-content h2 {
@@ -226,6 +226,20 @@ small {
   .mm-header {
     width:150px;
   }
+  div.menu-item {
+    min-height:130px;
+    margin-left:0px;
+    padding:0px;
+  }
+  .menu-item h2 {
+     font-size:50%;
+  }
+  .menu-item p {
+    font-size:60%;
+  }
+  .menu-item img {
+ /*   width:60px;*/
+  }
 }
 
 
@@ -233,7 +247,10 @@ small {
 ------------------------------------*/
 @media (max-width:400px){
   /** code for phone sizing etc **/
-  /* .hero {
+  .logo {
+    width:300px;
+  }
+   .hero {
     padding: 1.5rem;
   }
 
@@ -244,5 +261,4 @@ small {
   .hero-content p {
     font-size: 1rem;
   }
-    */
 }
