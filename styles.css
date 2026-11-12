@@ -16,7 +16,8 @@ header {
   gap: 1rem;
   height:20vh;
 }
-.logo {
+header img{
+  display:block;
   width:400px;
 }/* header image logo */
 nav ul {
@@ -106,10 +107,11 @@ main {
 .span2 {
   grid-column: span 2;
 }
-.award-box p, blockquote{
+.award-box p{
   border-bottom:1px solid black;
   font-family:"Charis SIL", serif;
   text-align:left;
+  padding-top:0.5rem;
 }
 .about-box p {
   text-align:left;
@@ -158,11 +160,8 @@ div.menu-item {
   margin-bottom:1rem;
 }/* styles for revie boxes */
 iframe {
-  max-width: 100%;
-  height:auto;
-}
-.maps {
-  padding:0rem;
+  max-width:100%;
+  padding:1rem;
 }/* location embed on home page */
 img {
   max-width: 100%; 
@@ -216,7 +215,7 @@ small {
     grid-gap:0;
     text-align:center;
   }
-  .logo {
+  header img {
     width:300px;
   }/* header image logo */
   .hero {
@@ -252,8 +251,8 @@ small {
 ------------------------------------*/
 @media (max-width:400px){
   /** code for phone sizing etc **/
-  .logo {
-    width:300px;
+  header img {
+    width:200px;
   }
    .hero {
     padding: 1.5rem;
