@@ -69,7 +69,7 @@ nav a:hover {
   margin-bottom: 1.5rem;
 }
 
-.hero-button {
+.hero-button, .order-again-btn {
   display: inline-block;
   background-color: #47e639;
   color: white;
@@ -78,9 +78,17 @@ nav a:hover {
   padding: 0.9rem 1.5rem;
   border-radius: 0.75rem;
 }
-
 .hero-button:hover {
   background-color: #0f6513;
+}/*hero button on index.html */
+.order-again-btn {
+  background-color:#0f6513;
+}
+.order-again-btn:hover {
+  background-color:#023d05;
+}/* button on order submitted page, uses same style as hero button except different button color */
+.place-order-btn {
+  
 }
 .mm-header {
   float:right;
@@ -159,6 +167,10 @@ div.menu-item {
   padding:1rem;
   margin-bottom:1rem;
 }/* styles for revie boxes */
+.order-box p, form{
+  text-align:left;
+  padding:0.5rem;
+}
 iframe {
   max-width:100%;
   padding:1rem;
