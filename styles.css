@@ -321,7 +321,9 @@ small {
   .card-grid {
     grid-template-columns:1fr 1fr;
   }/* change cards on reviews page to be 2 columns */
-
+  .menu-card-grid {
+    grid-template-columns:1fr 1fr;
+  }/* change cards on menu page to be 2 columns */
 }
 
 
@@ -347,4 +349,7 @@ small {
   .card-grid {
     grid-template-columns:1fr;
   }/* change cards on reviews page to be 1 column */
+  .menu-card-grid {
+    grid-template-columns:1fr;
+  }/* change cards on menu page to be 1 columns */
 }
