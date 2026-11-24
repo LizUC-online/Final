@@ -105,6 +105,7 @@ nav a:hover {
 }/* image of merry mocha drink on hero image */
 main {
   background-color:rgb(255, 255, 255);
+  background-color:#e8ebed;
   text-align:center;
   padding:1rem 6rem;
 }
@@ -281,7 +282,7 @@ small {
     padding:0.4rem;
   }
   header {
-    height:22vh;
+    height:22vh;/*make header smaller */
   }
   header nav ul {
     flex-direction:column;
