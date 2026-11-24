@@ -157,28 +157,6 @@ main h2 {
 main p {
   margin-bottom: 0;
 }
-div.menu-item {
-  text-align:left;
-  margin:1rem;
-  padding:2rem 1rem;
-  height:100px;
-  font-family:Charis SIL, serif;
-  /*
- border-bottom:2px solid black;*/
-}
-.menu-item img {
-/*  border:2px solid blue;/* delete this */
-  border-radius:20%;
-  max-width:100%;
-  height:auto;
-  width:70px;
-  float:left;
-  padding:0.4rem;
-}
-.menu-item h3, .menu-item p{
-  padding-left:5rem;
-  margin-bottom:0.5rem;
-}
 .card-grid {
   display:grid;
   grid-template-columns:1fr 1fr 1fr;
@@ -207,6 +185,40 @@ div.menu-item {
   border:2px solid lightgray;
   margin-right:10px;
 }/* profile images of review people */
+div.menu-item {
+  text-align:center;
+  margin:1rem;
+  padding:1rem 1rem;
+  height:auto;
+  font-family:Charis SIL, serif;
+}
+div.menu-item h3 {
+  margin-bottom:10px;
+  font-size:1.2rem;
+}/* menu titles styles*/
+.menu-card-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+.m-card {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 2px 10px rgba(16, 3, 3, 0.4);
+  /* keeps the cards consistent in height */
+  display:flex;
+  flex-direction: column;
+  /*justify-content:center;*/
+  justify-content:space-around;/*play with this*/
+}
+.m-card img{
+  margin:0 auto;/*center images */
+  width:100px;
+  padding:0.4rem;
+}
+/* styles for menu cards */
 .h2-style {
   margin-bottom:1rem;
 }/* extra space for "read our reviews" h2 on reviews page. */
@@ -298,7 +310,7 @@ small {
   div.menu-item {
     min-height:130px;
     margin-left:0px;
-    padding:0px;
+    padding:3px;
   }
   .menu-item h2 {
      font-size:50%;
