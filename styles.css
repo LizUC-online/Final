@@ -14,11 +14,11 @@ header {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  height:20vh;
+  height:8vh;
 }
 header img{
   display:block;
-  width:400px;
+  width:150px;
 }/* header image logo */
 nav ul {
   list-style: none;
@@ -210,8 +210,7 @@ div.menu-item h3 {
   /* keeps the cards consistent in height */
   display:flex;
   flex-direction: column;
-  /*justify-content:center;*/
-  justify-content:space-around;/*play with this*/
+  justify-content:space-around;/*play with this, makes things look more orderly aligned in menu items(photo, title, description)*/
 }
 .m-card img{
   margin:0 auto;/*center images */
@@ -282,7 +281,7 @@ small {
     padding:0.4rem;
   }
   header {
-    height:30vh;
+    height:22vh;
   }
   header nav ul {
     flex-direction:column;
@@ -290,7 +289,7 @@ small {
     text-align:center;
   }
   header img {
-    width:300px;
+    width:200px;
   }/* header image logo */
   .hero {
     flex-direction:column;
