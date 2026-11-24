@@ -77,19 +77,28 @@ nav a:hover {
   font-weight: bold;
   padding: 0.9rem 1.5rem;
   border-radius: 0.75rem;
-}
+}/* hero button on index.html, and order again button on order-submitted.html */
 .hero-button:hover {
   background-color: #0f6513;
 }/*hero button on index.html */
+.nav-order-btn {
+  display: inline;/* removing inline-block makes it appear centered with other nav links, but to make it responsive change it to inline-block 920pixels breaks*/
+  background-color: #fe0303;
+  color: white;
+  font-weight:bold;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+}/* cta button in nav */
+.nav-order-btn:hover {
+  background-color:#b60404;
+  color:#f8fafc;
+}/* cta button in nav */
 .order-again-btn {
   background-color:#0f6513;
-}
+}/* changes the color of the order again button, but retains the other styles/padding etc */
 .order-again-btn:hover {
   background-color:#023d05;
 }/* button on order submitted page, uses same style as hero button except different button color */
-.place-order-btn {
-  
-}
 .mm-header {
   float:right;
   width:300px;
@@ -237,6 +246,13 @@ small {
   background-position:center;
   background-repeat:no-repeat;
 }/* coffee bkg on about us page */
+
+/* desktop layout where cta order button breaks */
+@media(max-width:920px){
+  .nav-order-btn {
+    display:inline-block;
+  }
+}
 /* Tablet Layout
 ------------------------------------*/
 @media (max-width: 799px) {
@@ -273,6 +289,9 @@ small {
   .hero p {
     font-size:80%;
   }
+  /*.nav-order-btn {
+    display:inline-block;
+  }/* make the cta order button in nav look right again */
   .mm-header {
     width:150px;
   }
@@ -287,9 +306,10 @@ small {
   .menu-item p {
     font-size:60%;
   }
-  .menu-item img {
- /*   width:60px;*/
-  }
+  .card-grid {
+    grid-template-columns:1fr 1fr;
+  }/* change cards on reviews page to be 2 columns */
+
 }
 
 
@@ -311,4 +331,8 @@ small {
   .hero-content p {
     font-size: 1rem;
   }
+
+  .card-grid {
+    grid-template-columns:1fr;
+  }/* change cards on reviews page to be 1 column */
 }
